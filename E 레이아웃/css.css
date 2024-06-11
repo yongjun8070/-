@@ -1,0 +1,236 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: calc(100vh - 120px);
+    display: flex;
+}
+.left{
+    width: 200px;
+    height: 100%;
+}
+.center{
+    width: 400px;
+    height: 100%;
+}
+.right{
+    width: calc(100% - 600px);
+    height: 100%;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+}
+.logo img{
+    width: 150px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.menu{
+    width: 200px;
+    height: calc(100% - 100px);
+    border: 1px solid black;
+    
+}
+.menu>ul>li{
+    width: 150px;
+    
+    background-color:antiquewhite;
+    text-align: center;
+    margin-left: 25px;
+    line-height: 40px;
+}
+.menu>ul>li>a{
+    display: block;
+    color: black;
+}
+.submenu>li{
+    width: 150px;
+    height: 40px;
+}
+.submenu{
+    display: none;
+}
+.submenu>li>a{
+    display: block;
+    color: black;
+    background-color: antiquewhite;
+}
+.menu>ul>li:hover{
+    background-color: bisque;
+}
+.submenu>li:hover{
+    background-color: bisque;
+}
+.spotmenu {
+    margin-top: 50px;
+    margin-left: 5px;
+    
+}
+.banner{
+    width: 400px;
+    height: 120px;
+    border: 1px solid black;
+    display: flex;
+}
+.banner img{
+    width: 100px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.btxt{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.arrow{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.notice{
+    width: 400px;
+    height: calc((100% - 240px)/2);
+    border: 1px solid black;
+}
+.notice p{
+    width: 80px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border:1px solid black;
+    border-bottom: none;
+}
+.notice a{
+    width: 350px;
+    display: block;
+    margin-left: 10px;
+    height: 40px;
+    border-bottom: 1px solid black;
+    color: black;
+    line-height: 40px;
+}
+.notice span{
+    float: right;
+}
+.gallery{
+    width: 400px;
+    height: calc((100% - 240px)/2);
+    border: 1px solid black;
+}
+.gallery p{
+    width: 80px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border:1px solid black;
+    border-bottom: none;
+}
+.gimg{
+    display: flex;
+}
+.gimg img{
+    width: 100px;
+    height: 100px;
+    margin-left: 2px;
+    margin-top: 20px;
+}
+.gimg a{
+    color: black;
+    text-align: center;
+
+}
+.short{
+    width: 400px;
+    height: 120px;
+    border: 1px solid black;
+    display: flex;
+}
+.short img {
+    width: 80px;
+    margin-left: 35px;
+   margin-top: 10px;
+}
+.short p{
+    color: black;
+   margin-left: 60px;
+    
+}
+.slink a{
+    margin-left: 70px;
+}
+.slide{
+    width:100%;
+    height: 100%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.slidewrap img{
+    display: inline-block;
+    width: 795px;
+    height: 700px;
+}
+.slidewrap{
+    display: flex;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.flogo{
+    width: 200px;
+    height: 120px;
+    border: 1px solid black;
+
+}
+.flogo img{
+    width: 150px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.fcontent{
+    width: calc(100% - 200px);
+    height: 120px;
+}
+.fcontent a{
+    line-height: 55px;
+    margin-left: 10px;
+}
+.link{
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+}
+.copy{
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 15px;
+    
+}
+.copy a{
+    color: black;
+}
+.site{
+    width: 200px;
+    height: 120px;
+    border: 1px solid black;
+}
+
